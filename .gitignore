@@ -1,0 +1,39 @@
+#ignore *.class
+*.class
+
+#ignore package files
+*.war
+*.ear
+
+#kdiff3 ignore
+.orig
+
+#maven ignore
+target/
+
+#eclipse ignore
+.settings/
+.project
+.classpath
+
+#idea ignore
+.idea/
+.iml
+/idea/
+.ipr
+.iws
+
+
+#tmp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#system file
+.DS_Store
+Thumbs.db
+
+#virtual machine crash logs,
+hs_err_pid*
